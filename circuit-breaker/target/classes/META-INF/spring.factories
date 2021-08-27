@@ -1,0 +1,11 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.tsb.cb.config.CircuitBreakerAutoConfiguration,\
+com.tsb.cb.config.CircuitBreakersHealthIndicatorAutoConfiguration,\
+com.tsb.cb.common.IntegerToDurationConverter,\
+com.tsb.cb.common.StringToDurationConverter,\
+com.tsb.cb.retryconfig.RetryAutoConfiguration,\
+com.tsb.cb.bulkheadconfig.BulkheadAutoConfiguration,\
+com.tsb.cb.ratelimiterconfig.RateLimiterAutoConfiguration,\
+com.tsb.cb.timelimiterconfig.TimeLimiterAutoConfiguration
+
+
